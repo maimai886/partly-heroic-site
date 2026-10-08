@@ -67,7 +67,7 @@ This note is a Liquid comment: it stays in the source and is NOT rendered on the
 
 ## 8. 本ウェブサイトについて
 
-本ウェブサイトはGitHub Pagesで公開しています。本ウェブサイトはCookieを使用せず、分析・広告・トラッキングのツールもなく、ほかのサイトからフォントやスクリプトを読み込むこともありません。ホスティング事業者であるGitHubは、セキュリティと運用のために、訪問者のIPアドレスなどの技術的な情報を記録することがあります。これには[GitHubのプライバシーステートメント](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)が適用されます。
+本ウェブサイトはGitHub Pagesで公開しています。本ウェブサイトはCookieを使用せず、分析・広告・トラッキングのツールもなく、ほかのサイトからフォントやスクリプトを読み込むこともありません。ホスティング事業者であるGitHubは、セキュリティと運用のために、訪問者のIPアドレスなどの技術的な情報を記録することがあります。これには[GitHubのプライバシーステートメント](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)が適用されます。
 
 ## 9. 本ポリシーの変更
 

@@ -51,7 +51,7 @@ Placeholders (operator, email, effective date) come from _config.yml.
 
 ## 8. 本網站
 
-本網站放在 GitHub Pages 上。本網站不使用 Cookie，沒有分析、廣告或追蹤工具，也不從其他網站載入字型或程式。GitHub 是主機服務商，可能為了安全和維運記錄訪客的 IP 位址等技術資料，適用 [GitHub 的隱私權聲明](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)。
+本網站放在 GitHub Pages 上。本網站不使用 Cookie，沒有分析、廣告或追蹤工具，也不從其他網站載入字型或程式。GitHub 是主機服務商，可能為了安全和維運記錄訪客的 IP 位址等技術資料，適用 [GitHub 的隱私權聲明](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)。
 
 ## 9. 政策變更
 

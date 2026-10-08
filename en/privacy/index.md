@@ -50,7 +50,7 @@ The Game does not collect personal data from anyone, including children.
 
 ## 8. This website
 
-This website is hosted on GitHub Pages. It uses no cookies and no analytics, advertising or tracking tools, and it loads no fonts or scripts from other sites. As the host, GitHub may log technical data such as visitors' IP addresses for security and operations, under the [GitHub General Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+This website is hosted on GitHub Pages. It uses no cookies and no analytics, advertising or tracking tools, and it loads no fonts or scripts from other sites. As the host, GitHub may log technical data such as visitors' IP addresses for security and operations, under the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## 9. Changes to this policy
 
