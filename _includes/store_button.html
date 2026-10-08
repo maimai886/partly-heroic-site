@@ -1,0 +1,6 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- if site.app_store_url != "" -%}
+<a class="btn" href="{{ site.app_store_url }}">{{ t.store_go }}</a>
+{%- else -%}
+<span class="btn btn--soon" role="note">{{ t.store_soon }}</span>
+{%- endif -%}

@@ -1,0 +1,58 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign h = site.data.home[page.lang] -%}
+<section class="hero wrap">
+  <div class="hero__text">
+    <p class="hero__kicker">{{ h.platform }}</p>
+    <h1 class="hero__title">{{ t.name }}</h1>
+    <p class="hero__alt" lang="mul">{{ t.alt_names }}</p>
+    <p class="hero__tagline">{{ h.tagline }}</p>
+    <p class="hero__pitch">{{ h.pitch }}</p>
+    <div class="hero__cta">
+      {% include store_button.html %}
+      {%- if page.lang == "zh-Hant" %}
+      <span class="rating" role="img" aria-label="{{ h.rating }}（{{ h.rating_age }}）"><b>{{ h.rating }}</b><small>{{ h.rating_age }}</small></span>
+      {%- endif %}
+    </div>
+  </div>
+  <figure class="hero__art frame">
+    <img src="{{ '/assets/img/keyart_560.webp' | relative_url }}"
+         srcset="{{ '/assets/img/keyart_560.webp' | relative_url }} 560w, {{ '/assets/img/keyart_1024.webp' | relative_url }} 1024w"
+         sizes="(max-width: 720px) 88vw, 440px" width="560" height="560" alt="{{ t.name }}">
+  </figure>
+</section>
+
+<section class="wrap block" aria-labelledby="features">
+  <h2 id="features" class="ribbon"><span>{{ h.features_title }}</span></h2>
+  <div class="cards">
+    {%- for f in h.features %}
+    <article class="paper card">
+      <h3><img class="px" src="{{ '/assets/img/icons/' | append: f.icon | append: '.svg' | relative_url }}" width="48" height="48" alt="">{{ f.title }}</h3>
+      <p>{{ f.body }}</p>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="wrap block" aria-labelledby="heroes">
+  <h2 id="heroes" class="ribbon"><span>{{ h.heroes_title }}</span></h2>
+  <div class="heroes">
+    {%- for c in h.heroes %}
+    <article class="hero-card hero-card--{{ c.id }}">
+      <div class="frame frame--sm"><img src="{{ '/assets/img/hero_' | append: c.id | append: '.webp' | relative_url }}" width="520" height="650" loading="lazy" alt="{{ c.name }}"></div>
+      <h3>{{ c.name }}<small>{{ c.role }}</small></h3>
+      <p>{{ c.body }}</p>
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="wrap block" aria-labelledby="facts">
+  <div class="paper facts">
+    <h2 id="facts"><img class="px" src="{{ '/assets/img/icons/sun.svg' | relative_url }}" width="48" height="48" alt="">{{ h.facts_title }}</h2>
+    <ul>
+      {%- for x in h.facts %}
+      <li>{{ x }}</li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>

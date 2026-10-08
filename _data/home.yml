@@ -1,0 +1,122 @@
+# Landing page copy, from the App Store listing drafts (game repo docs/store/LISTING.md §2–§4 zh-Hant/en, §13 ja).
+# If a feature line is cut from the store description before submission, cut it here too (App Review 2.3.1).
+zh-Hant:
+  title: "晴時多勇者｜隨時陪你一起冒險的奇幻動作 RPG"
+  description: "晴時多勇者是一款奇幻動作 RPG。帶領晴空騎士團的三位英雄冒險；滑手機時，小隊會在子母畫面裡繼續冒險。"
+  tagline: "隨時陪你一起冒險的奇幻動作 RPG"
+  pitch: "你是重建中的晴空騎士團團長，帶領三位英雄踏上冒險：在 App 裡親自指揮戰鬥；滑手機、看別的 App 時，同一支小隊會在子母畫面裡繼續自動冒險。"
+  platform: "iPhone 版・免費"
+  features_title: "冒險手帳"
+  features:
+    - icon: sword
+      title: "有重量的戰鬥"
+      body: "自動攻擊加上手動技能、大招與閃避，看準敵人的預警再出手。打擊停格、擊退、浮空，每一下都打得到。三場區域 BOSS 戰：讀預警圈、打滿破防條，結算時拿 S／A／B 評價。"
+    - icon: banner
+      title: "三個區域，30 關"
+      body: "王國邊境平原的麥田與風車、古代礦坑遺跡閃著礦晶的坑道、炎龍要塞的熔岩與灰燼，炎龍伊格尼斯在等你。第 1 區路線圖有岔路、寶箱、事件、精英和營地，路線由你決定。"
+    - icon: chest
+      title: "收集與成長"
+      body: "打倒敵人掉落裝備，每位英雄 3 格裝備。在鐵匠分解、重鑄裝備，在訓練場升級英雄。"
+    - icon: window
+      title: "子母畫面，冒險不中斷"
+      body: "按下「懸浮」，戰鬥畫面會變成子母畫面的小視窗，一邊用其他 App，一邊看小隊冒險。小視窗的按鈕可以直接操作：營火休息、使用藥水、施放大招。離開期間也有離線收益，回來時看歸來報告。"
+  heroes_title: "三位創始英雄"
+  heroes:
+    - id: alice
+      name: "艾莉絲"
+      role: "騎士隊長"
+      body: "認真溫柔的騎士隊長，手持細劍與圓盾。"
+    - id: aoi
+      name: "小葵"
+      role: "邊境遊騎兵"
+      body: "喜歡花草的邊境遊騎兵，弓術精準。"
+    - id: luna
+      name: "露娜"
+      role: "天才法師"
+      body: "總是很睏的天才法師，星星魔法一出手就很驚人。"
+  facts_title: "其他"
+  facts:
+    - "不需要帳號、不需要網路，存檔只存在你的手機裡。"
+    - "目前沒有任何 App 內購買，也沒有廣告。"
+    - "新角色與新區域會在之後的更新陸續加入。"
+  rating: "保護級"
+  rating_age: "6+"
+  notice: "本遊戲依《遊戲軟體分級管理辦法》列為保護級（6 歲以上）。請注意使用時間，避免沉迷；遊戲虛擬情節請勿模仿。"
+ja:
+  title: "晴れ時々勇者｜いつもそばで冒険するファンタジーARPG"
+  description: "「晴れ時々勇者」はファンタジーアクションRPG。晴空騎士団の3人のヒーローを率いて冒険し、スマホで別のアプリを使っている間もピクチャ・イン・ピクチャで冒険が続きます。"
+  tagline: "いつもそばで冒険するファンタジーARPG"
+  pitch: "あなたは再建中の「晴空騎士団」の団長。3人のヒーローを率いて冒険に出かけましょう。アプリの中では自分で戦いを指揮し、スマホで別のアプリを使っている間は、同じパーティがピクチャ・イン・ピクチャの小さな画面で冒険を続けます。"
+  platform: "iPhone 版・無料"
+  features_title: "冒険の手帳"
+  features:
+    - icon: sword
+      title: "手ごたえのあるバトル"
+      body: "オート攻撃に、手動のスキル、必殺技、回避。敵の予兆を見切って反撃しよう。ヒットストップ、ノックバック、打ち上げで、一撃一撃にしっかり手ごたえがあります。3体のエリアボス戦では予兆エリアを読み、ブレイクゲージを満たし、S／A／Bで評価されます。"
+    - icon: banner
+      title: "3つのエリア、30ステージ"
+      body: "麦畑と風車、のろし台が続く王国辺境の平原。鉱晶のきらめく古代鉱山遺跡。溶岩と降りしきる灰の中、炎竜イグニスが待ち受ける炎竜の要塞。エリア1のルートマップでは、分かれ道、宝箱、イベント、エリート、野営地から、進む道をあなたが選びます。"
+    - icon: chest
+      title: "集めて、育てる"
+      body: "敵を倒すと装備がドロップ。ヒーローごとに3つの装備枠。鍛冶屋で装備を分解・再錬成し、訓練場でヒーローを強化しましょう。"
+    - icon: window
+      title: "ピクチャ・イン・ピクチャで、冒険は止まらない"
+      body: "「小窓」ボタンを押すと、バトル画面がピクチャ・イン・ピクチャの小さなウインドウになり、ほかのアプリを使いながらパーティの冒険を見守れます。ウインドウのボタンで、たき火で休憩、ポーション、必殺技を操作できます。離れている間もオフライン報酬がたまり、戻ったら「帰還報告」で確認できます。"
+  heroes_title: "3人の創設メンバー"
+  heroes:
+    - id: alice
+      name: "アリス"
+      role: "騎士隊長"
+      body: "まじめで優しい騎士隊長。細剣と円盾で仲間を守ります。"
+    - id: aoi
+      name: "アオイ"
+      role: "辺境のレンジャー"
+      body: "花が大好きな辺境のレンジャー。弓の腕は百発百中。"
+    - id: luna
+      name: "ルナ"
+      role: "天才魔法使い"
+      body: "いつも眠たげな天才魔法使い。星の魔法は目が覚めるほど強力です。"
+  facts_title: "そのほか"
+  facts:
+    - "アカウント登録もインターネット接続も不要。セーブデータはあなたの端末の中だけに保存されます。"
+    - "現在、アプリ内課金と広告はありません。"
+    - "新しいヒーローとエリアは、今後のアップデートで順次追加していきます。"
+en:
+  title: "Partly Heroic | Action RPG always by your side"
+  description: "Partly Heroic is a fantasy action RPG. Lead three heroes of the Order of the Clear Sky, and keep adventuring in Picture in Picture while you use other apps."
+  tagline: "A fantasy action RPG, always by your side"
+  pitch: "You lead the Order of the Clear Sky, a knightly order rising again, with a party of three heroes. Command every fight yourself in the app, and when you switch to another app, the same party keeps adventuring in Picture in Picture."
+  platform: "For iPhone · Free"
+  features_title: "Adventure journal"
+  features:
+    - icon: sword
+      title: "Weighty combat"
+      body: "Auto attacks plus manual skills, ultimates and a dodge. Read the enemy's warning, then strike. Hit-stop, knockback and launches make every blow land. In three zone boss fights, read the danger zones, fill the break gauge and earn an S, A or B rank."
+    - icon: banner
+      title: "Three zones, 30 stages"
+      body: "The wheat fields and windmills of the Frontier Plains, the glowing crystal veins of the Ancient Mine Ruins, and the lava and falling ash of the Dragon Fortress, where Ignis the Flame Dragon awaits. The Zone 1 route map has forks, chests, events, elites and camps. You choose the path."
+    - icon: chest
+      title: "Loot and growth"
+      body: "Defeated enemies drop gear, with 3 gear slots per hero. Salvage and reforge at the blacksmith, and train your heroes."
+    - icon: window
+      title: "Picture in Picture, nonstop adventure"
+      body: "Tap Float and the battle moves into a Picture in Picture window, so you can use other apps while you watch your party. Control the party from the window's buttons: rest at the campfire, drink a potion, unleash the ultimate. Earn rewards while you are away and read the welcome-back report when you return."
+  heroes_title: "Three founding heroes"
+  heroes:
+    - id: alice
+      name: "Alice"
+      role: "Knight captain"
+      body: "An earnest, kind knight captain with rapier and round shield."
+    - id: aoi
+      name: "Aoi"
+      role: "Frontier ranger"
+      body: "A frontier ranger who loves flowers and never misses a shot."
+    - id: luna
+      name: "Luna"
+      role: "Prodigy mage"
+      body: "A sleepy prodigy whose star magic is anything but sleepy."
+  facts_title: "Also"
+  facts:
+    - "No account and no internet needed. Your save stays on your device."
+    - "No in-app purchases and no ads at this time."
+    - "New heroes and zones will arrive in future updates."

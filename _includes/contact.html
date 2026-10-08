@@ -1,0 +1,14 @@
+{%- comment -%} Contact block used on the support page. Labels per language; values from _config.yml. {%- endcomment -%}
+{%- if page.lang == "ja" -%}
+  {%- assign l_issue = "不具合の報告・お問い合わせ（GitHub Issues）" -%}{%- assign l_mail = "サポートメール" -%}
+{%- elsif page.lang == "en" -%}
+  {%- assign l_issue = "Report a bug or ask a question (GitHub Issues)" -%}{%- assign l_mail = "Support email" -%}
+{%- else -%}
+  {%- assign l_issue = "回報問題或提問（GitHub Issues）" -%}{%- assign l_mail = "客服信箱" -%}
+{%- endif -%}
+<p class="contact">
+  <a class="btn" href="{{ site.bug_report_url }}">{{ l_issue }}</a>
+  {%- if site.support_email != "" %}
+  <br><span class="contact__mail">{{ l_mail }}: <a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a></span>
+  {%- endif %}
+</p>

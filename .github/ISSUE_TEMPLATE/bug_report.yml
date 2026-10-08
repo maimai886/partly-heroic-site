@@ -1,0 +1,50 @@
+name: "Bug report / 問題回報 / 不具合の報告"
+description: "Report a bug in Partly Heroic (晴時多勇者 / 晴れ時々勇者). 回報遊戲錯誤。不具合を報告する。"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This page is public.** Do not write your name, email, phone number, address or other personal details, and check screenshots for personal details before you attach them.
+        **這一頁是公開的。** 請不要寫姓名、電子郵件、電話、地址等個人資料，截圖也請先確認沒有個人資料。
+        **このページは公開されます。** 氏名、メールアドレス、電話番号、住所などの個人情報は書かないでください。スクリーンショットにも個人情報が写っていないか確認してください。
+  - type: input
+    id: app_version
+    attributes:
+      label: "App version / App 版本 / アプリのバージョン"
+      description: "Shown at the bottom of the 強化 panel (關於). 「強化」面板最下面的「關於」。強化パネルのいちばん下。"
+      placeholder: "1.0 (1)"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: "Device and iOS version / 機型與 iOS 版本 / 機種と iOS のバージョン"
+      placeholder: "iPhone 12, iOS 18.6"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: "What happened? / 發生了什麼？ / 何が起きましたか？"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "How can we make it happen again? / 怎麼做會再發生？ / 再現手順"
+      placeholder: "1. ...\n2. ...\n3. ..."
+  - type: dropdown
+    id: pip
+    attributes:
+      label: "Was Picture in Picture (Float) on? / 當時有開子母畫面（懸浮）嗎？ / ピクチャ・イン・ピクチャ（小窓）は使っていましたか？"
+      options:
+        - "No / 沒有 / いいえ"
+        - "Yes / 有 / はい"
+        - "Not sure / 不確定 / わからない"
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Screenshots or screen recording / 截圖或螢幕錄影 / スクリーンショット・画面収録"
+      description: "Optional. 可以不附。任意。"

@@ -1,0 +1,63 @@
+---
+layout: doc
+lang: en
+key: "support/"
+title: "Support | Partly Heroic"
+heading: "Support and FAQ"
+description: "Partly Heroic FAQ: how to use Picture in Picture, save data, supported devices, how to report a bug, and how to contact us."
+---
+<p>If something goes wrong or you have a question, check the FAQ below first. If it does not answer your question, use the contact section at the bottom.</p>
+
+<h2 id="faq">FAQ</h2>
+
+<details class="faq" open>
+<summary>How do I use Picture in Picture (Float)?</summary>
+<ol>
+  <li>On the battle screen, tap the Float button. The battle moves into a Picture in Picture window.</li>
+  <li>Go to the Home Screen or open another app, and your party keeps adventuring in the window. You can drag the window, pinch to resize it, and push it to the edge of the screen to tuck it away.</li>
+  <li>Use the window's buttons to control the party: rest at the campfire, drink a potion, unleash the ultimate.</li>
+  <li>To return to the full screen, tap the window to go back to the app, or tap the button again in the app. When Picture in Picture closes, the adventure pauses.</li>
+</ol>
+<ul>
+  <li><b>Automatic float:</b> the setting that floats the game automatically when you leave the app is <b>off</b> by default. You can turn it on in the upgrade panel (the button at the top left).</li>
+  <li><b>Sound:</b> by default no music or sound effects play while floating, so the game never talks over what you are listening to in other apps. You can turn them on in the same panel.</li>
+  <li>If you see a message that floating is not available, this device cannot open Picture in Picture right now. You can still play in the app. Please report your device model and iOS version if you can.</li>
+</ul>
+</details>
+
+<details class="faq">
+<summary>Where is my save? Will I lose it when I switch phones?</summary>
+<ul>
+  <li>Your save is stored only on your device. There is no account and no cloud save, and no internet connection is needed.</li>
+  <li><b>Deleting the app deletes the save.</b> We keep no copy, so we cannot restore it.</li>
+  <li>When you move to a new iPhone by restoring a full iCloud or computer backup of your old phone, the save usually moves with Apple's backup. If you only download the app again, you start from the beginning.</li>
+  <li>We cannot transfer or edit saves for you.</li>
+</ul>
+</details>
+
+<details class="faq">
+<summary>Which devices are supported?</summary>
+<ul>
+  <li>iPhone{% if site.ipad_supported %} and iPad{% endif %} with iOS {{ site.min_ios }} or later.</li>
+  <li>There is no Android version at this time.</li>
+</ul>
+</details>
+
+<details class="faq">
+<summary>How do I report a bug?</summary>
+<ol>
+  <li>Tap "Report a bug or ask a question" below. It opens this website's issue page on GitHub (a free GitHub account is needed).</li>
+  <li>Include the app version (shown at the bottom of the upgrade panel), your device model, your iOS version, what happened and how to make it happen again. Screenshots or a screen recording help a lot.</li>
+  <li><b>Reports are public on the internet.</b> Please do not include your name, email address, phone number, address or other personal details, and check screenshots for personal details before you post them.</li>
+</ol>
+</details>
+
+<details class="faq">
+<summary>Does it cost anything? Are there ads?</summary>
+<p>The game is currently free, with no in-app purchases and no ads.</p>
+</details>
+
+<h2 id="contact">Contact us</h2>
+<p>Support currently runs through our issue page on GitHub, for bug reports and general questions alike. We will reply as soon as we can.{% if site.support_email == "" %} When a support email address is available, it will be listed on this page.{% endif %}</p>
+{% include contact.html %}
+<p class="note">What you post there is public. See section 7 of the <a href="{{ '/en/privacy/' | relative_url }}">Privacy Policy</a> for how we handle reports.</p>

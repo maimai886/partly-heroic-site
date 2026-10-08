@@ -1,0 +1,63 @@
+---
+layout: doc
+lang: zh-Hant
+key: "support/"
+title: "客服｜晴時多勇者"
+heading: "客服與常見問題"
+description: "晴時多勇者的常見問題：子母畫面怎麼開、存檔、支援裝置、怎麼回報問題，以及聯絡方式。"
+---
+<p>遊戲遇到問題、或有任何疑問，先看看下面的常見問題；找不到答案的話，請到最下面的「聯絡我們」回報。</p>
+
+<h2 id="faq">常見問題</h2>
+
+<details class="faq" open>
+<summary>子母畫面（懸浮）怎麼開？</summary>
+<ol>
+  <li>在戰鬥畫面按「懸浮」按鈕，戰鬥畫面就會變成子母畫面的小視窗。</li>
+  <li>回到主畫面或打開其他 App，小隊會在小視窗裡繼續冒險。小視窗可以拖曳移動、用兩指縮放，推到螢幕邊緣可以暫時收起。</li>
+  <li>小視窗的按鈕可以直接操作：營火休息、使用藥水、施放大招。</li>
+  <li>想回到完整畫面，點小視窗回到 App，或在 App 裡按「收回」。關掉子母畫面後，冒險會暫停。</li>
+</ol>
+<ul>
+  <li><b>自動懸浮：</b>「強化」面板（左上的「強化」按鈕）裡的「離開 App 時自動懸浮」預設是關閉的。打開後，離開 App 時會自動變成小視窗。</li>
+  <li><b>聲音：</b>懸浮時預設不播音樂和音效，不會蓋過你在別的 App 聽的東西。想聽的話，在「強化」面板打開「懸浮時播放音樂」「懸浮時播放音效」。</li>
+  <li>如果按「懸浮」時出現「目前無法懸浮」，代表這台裝置現在不能開子母畫面。遊戲在 App 裡仍然可以正常玩；方便的話請回報你的機型和 iOS 版本。</li>
+</ul>
+</details>
+
+<details class="faq">
+<summary>存檔在哪裡？換手機會不見嗎？</summary>
+<ul>
+  <li>存檔只存在你的裝置上。本遊戲沒有帳號，也沒有雲端存檔，不需要網路。</li>
+  <li><b>刪除 App 會一起刪除存檔</b>，我們沒有副本，無法替你還原。</li>
+  <li>換新 iPhone 時，如果用 iCloud 備份或電腦備份把整台舊手機還原到新手機，存檔通常會跟著 Apple 的備份一起轉移。只重新下載 App 的話，會從頭開始。</li>
+  <li>我們無法替你轉移或修改存檔。</li>
+</ul>
+</details>
+
+<details class="faq">
+<summary>支援哪些裝置？</summary>
+<ul>
+  <li>iPhone{% if site.ipad_supported %}和 iPad{% endif %}，需要 iOS {{ site.min_ios }} 以上。</li>
+  <li>目前沒有 Android 版。</li>
+</ul>
+</details>
+
+<details class="faq">
+<summary>怎麼回報錯誤（bug）？</summary>
+<ol>
+  <li>按下方的「回報問題或提問」，會打開本網站在 GitHub 上的問題回報頁（需要免費的 GitHub 帳號）。</li>
+  <li>寫下：App 版本（「強化」面板最下面的「關於」）、手機機型、iOS 版本、發生了什麼、怎麼做會再發生一次。有截圖或螢幕錄影更好。</li>
+  <li><b>回報會公開顯示在網路上。</b>請不要寫姓名、電子郵件、電話、地址等個人資料，截圖也請先確認沒有個人資料。</li>
+</ol>
+</details>
+
+<details class="faq">
+<summary>需要付費嗎？有廣告嗎？</summary>
+<p>本遊戲目前免費，沒有任何 App 內購買，也沒有廣告。</p>
+</details>
+
+<h2 id="contact">聯絡我們</h2>
+<p>目前客服透過 GitHub 上的問題回報頁進行，錯誤回報和一般問題都可以在這裡提出。我們會盡快回覆。{% if site.support_email == "" %}客服信箱開通後會公布在這一頁。{% endif %}</p>
+{% include contact.html %}
+<p class="note">回報的內容會公開。我們怎麼處理回報，請看<a href="{{ '/privacy/' | relative_url }}">隱私權政策</a>第 7 條。</p>

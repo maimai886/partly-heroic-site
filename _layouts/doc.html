@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- if page.lang == "en" %}{% assign colon = ": " %}{% else %}{% assign colon = "：" %}{% endif -%}
+<div class="wrap">
+<article class="paper doc">
+  <h1>{{ page.heading }}</h1>
+  {%- if page.legal %}
+  <p class="doc__meta">{{ t.effective }}{{ colon }}{{ site.effective_date }}<br>{{ t.operator }}{{ colon }}{{ site.operator[page.lang] }}</p>
+  {%- endif %}
+  {{ content }}
+</article>
+</div>

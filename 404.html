@@ -1,0 +1,19 @@
+---
+layout: default
+lang: zh-Hant
+key: ""
+kind: doc
+title: "404｜晴時多勇者"
+permalink: /404.html
+---
+<div class="wrap">
+<article class="paper doc">
+  {%- for l in site.data.i18n %}
+  {%- assign t = l[1] %}
+  <section lang="{{ t.html_lang }}">
+    <h2>{{ t.not_found_title }}</h2>
+    <p>{{ t.not_found_body }} <a href="{{ '/' | append: t.prefix | relative_url }}">{{ t.back_home }}</a></p>
+  </section>
+  {%- endfor %}
+</article>
+</div>

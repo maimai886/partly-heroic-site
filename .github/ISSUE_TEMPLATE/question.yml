@@ -1,0 +1,16 @@
+name: "Question / 提問 / 質問"
+description: "Ask a question about Partly Heroic. 關於遊戲的問題。ゲームについての質問。"
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This page is public.** Do not write personal details. / **這一頁是公開的**，請不要寫個人資料。 / **このページは公開されます。** 個人情報は書かないでください。
+        FAQ: https://maimai886.github.io/partly-heroic-site/support/
+  - type: textarea
+    id: question
+    attributes:
+      label: "Your question / 你的問題 / ご質問"
+    validations:
+      required: true

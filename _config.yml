@@ -1,0 +1,58 @@
+# =====================================================================
+#  晴時多勇者 / 晴れ時々勇者 / Partly Heroic — public website
+#  THIS IS THE ONLY FILE WITH VALUES TO FILL IN.
+#  Edit a value, commit, and GitHub Pages rebuilds the site in ~1 minute.
+#  Search for "TODO" to find what is still open.
+# =====================================================================
+
+# --- Support contact ------------------------------------------------
+# TODO(boss): a dedicated support address (never a personal one).
+# Leave it "" and every contact section points to the GitHub Issues page below.
+# When filled, the support page, privacy policy and terms show it as well.
+support_email: ""
+# When support_email is filled, also fill these two (the Japanese privacy policy, APPI, names them):
+email_service: ""          # e.g. the mail provider's name
+email_server_country: ""   # e.g. "米国" (written in Japanese)
+
+# Public bug-report / question page (GitHub Issues on this repo).
+issues_url: "https://github.com/maimai886/partly-heroic-site/issues"
+bug_report_url: "https://github.com/maimai886/partly-heroic-site/issues/new?template=bug_report.yml"
+
+# --- Operator / copyright (boss decision 2026-10-08: neutral team name) ---
+operator:
+  zh-Hant: "晴時多勇者 開發團隊"
+  ja: "晴れ時々勇者 開発チーム"
+  en: "Partly Heroic Team"
+copyright: "© 2026 Partly Heroic Team"
+
+# --- Legal dates ----------------------------------------------------
+# TODO(boss): confirm the effective date of the privacy policy and terms (planned launch day).
+effective_date: "2026-10-31"
+
+# --- App Store ------------------------------------------------------
+# TODO(boss): paste the App Store link once the app is live, e.g.
+# "https://apps.apple.com/tw/app/id0000000000". While empty, the landing page shows
+# a "coming soon" placeholder. When filled, swap the placeholder for Apple's official
+# "Download on the App Store" badge (Apple Marketing Resources) per Apple's badge guidelines.
+app_store_url: ""
+
+# --- Devices --------------------------------------------------------
+min_ios: "17.0"
+# TODO(boss): set to true only if the App Store build supports iPad (LISTING.md §1).
+ipad_supported: false
+
+# =====================================================================
+#  Site settings (normally no need to touch)
+# =====================================================================
+title: "Partly Heroic"
+url: "https://maimai886.github.io"
+baseurl: "/partly-heroic-site"
+markdown: kramdown
+kramdown:
+  auto_ids: true
+exclude:
+  - README.md
+  - LICENSE-CONTENT.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
