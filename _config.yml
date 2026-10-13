@@ -26,8 +26,8 @@ operator:
 copyright: "© 2026 Partly Heroic Team"
 
 # --- Legal dates ----------------------------------------------------
-# TODO(boss): confirm the effective date of the privacy policy and terms (planned launch day).
-effective_date: "2026-10-31"
+# Effective date of the privacy policy and terms: the App Store submission day (boss 2026-10-13).
+effective_date: "2026-10-19"
 
 # --- App Store ------------------------------------------------------
 # TODO(boss): paste the App Store link once the app is live, e.g.
